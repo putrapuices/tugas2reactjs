@@ -1,0 +1,30 @@
+import React,{Component} from "react";
+import ListMakanan from "../ListData/ListMakanan";
+
+class MenuMakanan extends Component{
+    render(){
+        return(
+            <div>
+                <h3>dAFTARA MAKANAN yANG kAMI sEDIAKAN :</h3>
+                <td>
+                    <ListMakanan linkgambar="https://s3-ap-southeast-1.amazonaws.com/niomic/img/sample/nasipadang.jpg" />
+                </td>
+                <td>
+                    <ListMakanan linkgambar="https://s3-ap-southeast-1.amazonaws.com/niomic/img/sample/sate.png" />
+                </td>
+                <td>
+                    <ListMakanan linkgambar="https://s3-ap-southeast-1.amazonaws.com/niomic/img/sample/sotolamongan.png" />
+                </td>
+                <td>
+                    <ListMakanan linkgambar="https://www.dbs.com/iwov-resources/images/newsroom/indonesia/Blog/masakan%20nusantara/nasi%20kentut.png" />
+                </td>
+                <td>
+                    <ListMakanan linkgambar="https://s3-ap-southeast-1.amazonaws.com/niomic/img/sample/food1.jpg" />
+                </td>
+
+            </div>
+        );
+    }
+}
+
+export default MenuMakanan;

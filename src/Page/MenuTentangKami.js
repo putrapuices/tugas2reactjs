@@ -16,7 +16,9 @@ render(){
                 <p>Tentang Kami</p> {this.state.tentang}
             </center>
         </div>
-    )
+    );
 }
 
 }
+
+export default MenuTentangKami;
